@@ -1,0 +1,32 @@
+.radio-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    border: 1px solid #e8e8e8;
+    transition: all 0.2s ease;
+  }
+  
+  .radio-button:hover {
+    border-color: #d8d8d8;
+    background-color: #eaeaea;
+  }
+  
+  .radio-button:checked {
+    background-color: #0076FF;
+    border-color: #0076FF;
+    box-shadow: 0 0 0 1px #0076FF;
+  }
+
+  .question-text{
+    font-family: 'Lato', sans-serif;
+
+  }

@@ -1,0 +1,94 @@
+/* .title {
+  font-family: "Explora", cursive;
+  font-size: 5rem;
+  color: #f2ed8c;
+  font-weight: 100;
+  margin: 0 0 5vh 0;
+}
+
+.main-image {
+  width: 25vw;
+  border: 5px solid rgb(189, 63, 85);
+  border-radius: 1vw;
+  transition: 1s;
+}
+
+.intro-text {
+  color: #2f122b;
+  font-weight: bold;
+  width: 50vw;
+  padding-right: 10vw;
+  text-align: justify;
+}
+
+.button-container {
+  margin-top: 5vh;
+}
+
+.questionnaire-button {
+  background-color: #bd3f55;
+  border-radius: 8px;
+  border-style: none;
+  color: #f2ed8c;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 180px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 0.5s;
+}
+
+.questionnaire-button:hover {
+  background-color: #da535e;
+}
+
+@media (max-width: 850px) {
+  .main-image {
+    display: none;
+  }
+
+  .left-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 2vh;
+  }
+
+  .intro-text {
+    width: 80%;
+    padding: 0;
+    font-size: 90%;
+  }
+
+  .button-container {
+    margin-top: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .questionnaire-button {
+    width: 100px;
+    font-size: 60%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .intro-text {
+    font-size: 80%;
+  }
+} */

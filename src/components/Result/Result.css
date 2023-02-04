@@ -1,0 +1,239 @@
+/* /* .result-container {
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+  border-style: solid;
+} */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.overallcontainer{
+  background-color: white;
+
+}
+
+.cardset{
+  background: rgb(128,128,128);
+    margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+z-index: -1;
+border-radius: 10px;
+padding-top: 1rem;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  z-index: 1;
+
+}
+
+.card-container_title{
+  font-size: 2rem;
+
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.header-title{
+  font-size: medium;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+
+}
+
+
+.card-title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.card-text {
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  padding-top: 0.8rem;
+
+}
+
+.double-p {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.radio-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  /* margin-top: 4px; */
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  transition: all 0.2s ease;
+}
+
+.radio-button:hover {
+  border-color: #d8d8d8;
+  background-color: #eaeaea;
+}
+
+.radio-button:checked {
+  background-color: #0076FF;
+  border-color: #0076FF;
+  box-shadow: 0 0 0 1px #0076FF;
+}
+
+.question-text{
+  font-family: 'Lato', sans-serif;
+
+}
+
+.feedback-section{
+  background-color: white;
+  padding: 2rem;
+}
+
+.question{
+  padding-top: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  
+}
+
+.question-text{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+
+}
+
+.question > ul {
+  padding: 0;
+}
+
+.question > * {
+  padding-top: 1rem;
+}
+
+.undorderlist{
+  padding: 0;
+}
+
+.arrow-icon{
+  font-size: 2rem;
+}
+
+.button-submit{
+font-size: large;
+border-width: 2px;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+font-weight: bold;
+cursor: pointer;
+  padding: 1rem;
+  color: #0076FF;
+  border-radius: 1rem;
+}
+
+.spinner-border {
+  width: 1.5em;
+  height: 1.5em;
+  border: 0.2em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 1s linear infinite;
+}
+
+.spinner-border-sm {
+  width: 1em;
+  height: 1em;
+  border-width: 0.15em;
+}
+
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+} */
